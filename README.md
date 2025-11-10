@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧠 Ai-Suggestions
 
 A modern React web app that auto-completes your sentences using the Google Gemini AI API, styled with Material UI for a clean and responsive user experience.
