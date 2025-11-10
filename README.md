@@ -1,17 +1,17 @@
-# 🧠 AI Fill The Blanks
+# 🧠 Ai-Suggestions
 
-A sleek **Cyberpunk-themed React web app** that auto-completes your text using **Google Gemini AI API**.  
-Just start typing — the AI continues your sentence naturally, creating an immersive futuristic typing experience.
+A modern React web app that auto-completes your sentences using the Google Gemini AI API, styled with Material UI for a clean and responsive user experience.
+Just start typing — the AI continues your sentence naturally, making writing smoother and smarter.
 
 ---
 
 ## 🚀 Features
 
-- 🤖 **Gemini-powered text continuation** – AI continues sentences smoothly and contextually  
-- ⏳ **Smart debounce** – waits 1.5 seconds after typing stops before calling AI  
-- 🌌 **Cyberpunk Hacker UI** – neon glow, matrix scanlines, glitch animations  
-- ⚡ **Real-time response rendering** – shows AI completion seamlessly with your text  
-- 💬 **Loading indicator** – displays “Thinking…” while AI generates text  
+- 🤖 **Gemini-powered text continuation** – AI completes your thoughts with contextual fluency
+- ⏳ **Smart debounce** – triggers AI only after 1.5 seconds of inactivity 
+- 🌌 **Material UI theme** - clean layout, responsive design, and intuitive components
+- ⚡ **Real-time AI rendering** – seamlessly blends user input with AI-generated text
+- 💬 **Dynamic loading indicator** – shows “Thinking…” while AI processes your input
 
 ---
 
@@ -19,38 +19,26 @@ Just start typing — the AI continues your sentence naturally, creating an imme
 
 - **React.js** – Frontend framework  
 - **Gemini API** – AI text generation  
-- **CSS3** – Cyberpunk hacker theme  
-- **JavaScript (ES6+)**
+- **Material UI (MUI)** – Component-based styling and layout
+- **JavaScript (ES6+)** - App logic and interactivity
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/AI-Fill-The-Blanks.git
-cd AI-Fill-The-Blanks
+git clone https://github.com/cyberkalki/Ai-Suggestions.git
+
+cd Ai-Suggestions
+
 npm install
 
-Configure Gemini API
-Make sure your Gemini.js looks something like this:
-
-class Gemini {
-  async generateContent({ message }) {
-    // Replace this with your actual Gemini API call
-    // For now, mock a fake AI response
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(" — and that’s how innovation keeps evolving.");
-      }, 1000);
-    });
-  }
-}
-export default Gemini;
 
 Run the Development Server
 npm start
 
 Demo Screenshot
 Add your screenshot here once the app runs:
-<img width="1912" height="967" alt="{D537985D-5864-4C92-90BC-919860CA1E46}" src="https://github.com/user-attachments/assets/e6f58878-7e79-42d4-83b6-725985147177" />
+<img width="1920" height="1032" alt="{269C9CAA-0395-4DFC-A78F-9BF6C6DF78AF}" src="https://github.com/user-attachments/assets/09d433de-a047-4a29-8ad5-0b6c4002b08d" />
+
 
